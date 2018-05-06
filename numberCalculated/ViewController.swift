@@ -19,7 +19,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet weak var totalLabel: UILabel!
     @IBAction func calculatedSeg(_ sender: UISegmentedControl) {
         let number1:Double
-        var number2:Double
+        let number2:Double
         var total:Double
         number1 = Double(firstNumTextField.text!)!
         number2 = Double(secondNumTextField.text!)!
